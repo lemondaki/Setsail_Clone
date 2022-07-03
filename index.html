@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.1.1-web/css/all.css">
+    <title>Wine Tours</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="header">
+            <nav class="header__navbar">
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+
+                            <i class="header__navbar-icon ti-email"></i>
+                            <span class="header__navbar-infor">setsail@qode.com</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+
+                            <i class="header__navbar-icon fa-solid fa-phone"></i>
+                            <span class="header__navbar-infor">1 562 867 5309</span>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="https://www.google.rs/maps/place/Charging+Bull/@40.7055242,-74.0133806,20z/data=!4m5!3m4!1s0x0:0xc7db393ae1eff521!8m2!3d40.7055537!4d-74.0134436"
+                            class="header__navbar-item-link">
+
+                            <i class="header__navbar-icon ti-location-pin"></i>
+                            <span class="header__navbar-infor">Broadway & Morris St, New York</span>
+                        </a>
+                    </li>
+
+                </ul>
+
+                <ul class="header__navbar-list">
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon-social ti-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon-social ti-pinterest"></i>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon-social ti-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="header__navbar-item">
+                        <a href="" class="header__navbar-item-link">
+                            <i class="header__navbar-icon-social fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+
+                    <li class="header__navbar-language header__navbar-item">
+                        <a href="" class="header__navbar-item-english">English<i
+                                class="header__navbar-icon-down ti-angle-down"></i></a>
+                        <ul class="subnav">
+                            <li class="selection__language">
+                                <a href="#" class="selection__language-link">
+                                    <span class="animation__move">
+                                        French
+                                    </span>
+                                </a>
+
+                            </li>
+                            <li class="selection__language">
+                                <a href="#" class="selection__language-link">
+                                    <span class="animation__move">
+                                        German
+                                    </span>
+
+                                </a>
+
+                            </li>
+                            <li class="selection__language">
+                                <a href="#" class="selection__language-link">
+                                    <span class="animation__move">
+                                        Italian
+                                    </span>
+                                </a>
+
+
+
+
+
+                            </li>
+                        </ul>
+                    </li>
+                    <label for="navbar__mobile-input" class="header__navbar-user header__navbar-item">
+                     
+                            <i class="header__navbar-icon-user fa-solid fa-circle-user"></i>
+                        
+                    </label>
+                </ul>
+            </nav>
+            <input type="checkbox" hidden class="navbar-input" id="navbar__mobile-input">
+            <input type="checkbox" hidden class="navbar-input2" id="navbar__mobile-input2">
+            <label for="navbar__mobile-input" class="modal">
+                <div class="modal__overlay"></div>
+                <div class="modal__body">
+                    <div class="modal__inner">
+                        <div class="login__form">
+                            <div class="login__block">
+                                <h3 class="login__heading">LOGIN</h3>
+                            </div>
+                            <div class="register__block block--active">
+                                <h3 class="switch-btn">REGISTER</h3>
+                            </div>
+            
+                        </div>
+            
+                        <div class="form__content">
+                            <div class="form__intro">
+                                <h2 class="form__intro-heading">Sign In Here!</h2>
+                                <p class="form__intro-text">Log into your account in just a few simple steps</p>
+                            </div>
+                            <div class="input__login">
+                                <input type="text" class="input_box" placeholder="User Name">
+                                <div class="input__login-icon">
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                            </div>
+                            <div class="input__login">
+                                <input type="text" class="input_box" placeholder="Password">
+                                <div class="input__login-icon">
+                                    <i class="fa-solid fa-lock"></i>
+                                </div>
+                            </div>
+                            <div class="login__remember">
+                                <input type="checkbox" class="remember__again">
+                                <span class="remember__text">Remember me</span>
+                            </div>
+                            <span class="lost__password">Lost Your Password?</span>
+                            <div class="btn__signin">
+            
+                            </div>
+                            <div class="input__login">
+                                <button class="input_box input_box-signin">
+                                    <span class="input_box-signin-text">SIGN IN</span>
+                                </button>
+                            </div>
+                            <div class="signin__with">
+                                <h3 class="signin__with-heading">
+                                    Sign in with Facebook and Google+
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="login__form mbt-15">
+                            <div class="login__block btn__facebook">
+                                <h3 class="login__heading">FACEBOOK</h3>
+                            </div>
+            
+                            <div class="register__block btn__google">
+                                <h3 class="switch-btn">GOOGLE+</h3>
+                            </div>
+            
+                        </div>
+                    </div>
+                </div>
+            </label>
+            <div class="header__navbar-tablet">
+                <ul class="navbar__tablet-list">
+                    <label for="navbar__mobile-input2" class="navbar__tablet-item">
+                        
+                            <i class="navbar__tablet-icon fa-solid fa-bars"></i>
+                       
+                    </label>
+                    <li class="navbar__tablet-item">
+                        <a href="" class="navbar__tablet-item-link">
+                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-mobile-img.png" alt="Setsails" class="tablet__item-img">
+                        </a>
+                    </li>
+                    <label for="navbar__mobile-input"  class="navbar__tablet-item">
+                    
+                            <i class="navbar__tablet-icon fa-solid fa-circle-user"></i>
+                       
+                    </label>
+                </ul>
+            </div>
+            <label for="navbar__mobile-input2" class="subnav-mobile__list">
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text">Home</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Page</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Destinations</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Tour</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Blog</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Shop</span>
+                </li>
+                <li class="subnav-mobile-item">
+                    <span class="animation__move--black bl-text ">Element</span>
+                </li>
+            </label>
+        </div>
+
+        <div class="container">
+            <div class="brand">
+                <a href="" class="brand__link">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-centered.png"
+                        alt="setsail" class="brand__link-img">
+                </a>
+            </div>
+
+            <div class="navbar-main">
+                <ul class="navbar-main__list">
+                    <li class="navbar-main__catagory">
+                        <span class="animation__move--black">Home</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </li>
+                    <li class="navbar-main__catagory">
+
+
+                        <span class="animation__move--black">Page</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-main__catagory">
+
+
+                        <span class="animation__move--black">Destination</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-main__catagory">
+
+
+                        <span class="animation__move--black">Tours</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-main__catagory">
+
+
+                        <span class="animation__move--black">Blog</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-main__catagory">
+
+
+                        <span class="animation__move--black">Shop</span>
+                        <div class="subnav-main">
+                            <ul class="subnav-main__list">
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Travel Agency</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Winter Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Exotics Destinations</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Summer Holidays</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">City Tours</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">New Year Trips</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Destination Carosel</span>
+                                </li>
+                                <li class="subnav-main-item">
+                                    <span class="animation__move--black bl-text">Wine Tours</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </li>
+                    <li class="navbar-main__catagory-full">
+
+
+                        <span class="animation__move--black">Elements</span>
+
+                        <div class="subnav-main__full">
+                            <div class="grid">
+                                <ul class="subnav-main__list">
+                                    <li class="subnav-main-item pt-30">
+                                        <span class="animation__move--black ">Travel Agency</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Winter Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Exotics Destinations</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Summer Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">City Tours</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">New Year Trips</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Destination Carosel</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Wine Tours</span>
+                                    </li>
+                                </ul>
+                                <ul class="subnav-main__list">
+                                    <li class="subnav-main-item pt-30">
+                                        <span class="animation__move--black ">Travel Agency</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Winter Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Exotics Destinations</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Summer Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">City Tours</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">New Year Trips</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Destination Carosel</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Wine Tours</span>
+                                    </li>
+                                </ul>
+                                <ul class="subnav-main__list">
+                                    <li class="subnav-main-item pt-30">
+                                        <span class="animation__move--black ">Travel Agency</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Winter Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Exotics Destinations</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">
+                                            Summer Holidays
+                                        </span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">City Tours</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">New Year Trips</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Destination Carosel</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Wine Tours</span>
+                                    </li>
+                                </ul>
+                                <ul class="subnav-main__list">
+                                    <li class="subnav-main-item pt-30">
+                                        <span class="animation__move--black ">Travel Agency</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Winter Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Exotics Destinations</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Summer Holidays</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">City Tours</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">New Year Trips</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Destination Carosel</span>
+                                    </li>
+                                    <li class="subnav-main-item">
+                                        <span class="animation__move--black ">Wine Tours</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slide-page">
+                <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-1.jpg" alt="img"
+                    class="slide-page__one">
+                <img src="https://setsail.select-themes.com/wp-content/uploads/2018/09/travel-slide-2.jpg" alt="img"
+                    class="slide-page__second">
+                <div class="slide-page__icon">
+                    <i class="slide-page__icon-btn fa-solid fa-chevron-left"></i>
+                    <i class="slide-page__icon-btn fa-solid fa-chevron-right"></i>
+                </div>
+            </div>
+            <div class="gridd">
+                <img src="	https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-1.png" alt=""
+                    class="travel-wood">
+                <div class="tour">
+                    <div class="tour__heading">Our Popular Tours</div>
+                    <p class="tour__description">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.
+                        Phasellus viver ra nulla ut metus varius laoreet. Quisque rutrum.</p>
+                    <div class="tour__chart">
+                        <span class="tour__chart-item">Countryside</span>
+                        <span class="tour__chart-percent">76%</span>
+                    </div>
+                    <div class="bar__chart">
+                        <div class="bar__chart-content1"></div>
+                        <div class="bar__chart-rest">
+
+                        </div>
+                    </div>
+
+                    <div class="tour__chart">
+                        <span class="tour__chart-item">Vineyard</span>
+                        <span class="tour__chart-percent">92%</span>
+                    </div>
+                    <div class="bar__chart">
+                        <div class="bar__chart-content2"></div>
+                        <div class="bar__chart-rest">
+
+                        </div>
+                    </div>
+                    <div class="tour__chart">
+                        <span class="tour__chart-item">Wine Tasting</span>
+                        <span class="tour__chart-percent">86%</span>
+                    </div>
+                    <div class="bar__chart">
+                        <div class="bar__chart-content3"></div>
+                        <div class="bar__chart-rest">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="gridd">
+                <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-2.jpg"
+                    alt="Rice Field" class="rice-field">
+            </div>
+            <div class="tour__sales">
+                <h2 class="tour__sales-heading">The Best Tours</h2>
+                <p class="tour__sales-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aene an commodo
+                    ligula eget dolor. Aenean massa. Cum sociis</p>
+            </div>
+            <div class="tour-place">
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-1.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Wine Festival</span>
+                        <span class="tour-place__price">$550</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-2.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Wine Tasting</span>
+                        <span class="tour-place__price">$920</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper3">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-3.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Camping</span>
+                        <span class="tour-place__price">$1550</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-4.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Harvest</span>
+                        <span class="tour-place__price">$2600</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-5.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Champagne</span>
+                        <span class="tour-place__price">$2130</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-6.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Villages</span>
+                        <span class="tour-place__price">$850</span>
+                    </div>
+                </div>
+
+                <div class="tour-place__wrapper">
+                    <img src="https://phien041993.github.io/winer/assets/img/tour-img-7.jpg" alt=""
+                        class="tour-place__img">
+                    <div class="tour-place__infor">
+                        <span class="tour-place__name">Local Wine</span>
+                        <span class="tour-place__price">$1300</span>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="wine">
+                <div class="wine-traditional">
+                    <span class="wine-traditional__quantity">45</span>
+                    <h3 class="wine-traditional__heading">Glasses of Wine</h3>
+                    <p class="wine-traditional__descp">Cap at perspic iatis unde omnis iste natus error sit volup tatem
+                    </p>
+                </div>
+                <div class="wine-traditional">
+                    <span class="wine-traditional__quantity">126</span>
+                    <h3 class="wine-traditional__heading">Years of experience</h3>
+                    <p class="wine-traditional__descp">Sop ut perspic iatis ande emnis iste natus error sit volup fatom
+                    </p>
+                </div>
+                <div class="wine-traditional">
+                    <span class="wine-traditional__quantity">452</span>
+                    <h3 class="wine-traditional__heading">Unique Wines</h3>
+                    <p class="wine-traditional__descp">
+                        Sed ut perspic iatis unde omnis iste natus error sit volup tatem
+                    </p>
+                </div>
+                <div class="wine-traditional">
+                    <span class="wine-traditional__quantity">247</span>
+                    <h3 class="wine-traditional__heading">Sorts of Wine</h3>
+                    <p class="wine-traditional__descp">Cap of qerspic iatis ande umnis lcte natus error sit volup fatem
+                    </p>
+                </div>
+            </div>
+            <div class="wine-intro">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/IG3BWXrHQ2E"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <div class="wine-content">
+                <div class="wine-content__customer">
+                    <div class="wine-content__top">
+                        <h2 class="wine-content__top-heading">Our Popular Tours</h2>
+                        <p class="wine-content__top-descp">
+                            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
+                            quis enim. Donec pede justo
+                        </p>
+                    </div>
+                    <div class="wine-content__bottom">
+                        <div class="wine-content__box">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-1.png"
+                                alt="" class="wine-content__box-img">
+                            <span class="wine-content__box-descp">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                            </span>
+                        </div>
+                        <div class="wine-content__box">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-3.png"
+                                alt="" class="wine-content__box-img">
+                            <span class="wine-content__box-descp">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                            </span>
+                        </div>
+                        <div class="wine-content__box">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-4.png"
+                                alt="" class="wine-content__box-img">
+                            <span class="wine-content__box-descp">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                            </span>
+                        </div>
+                        <div class="wine-content__box">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-custom-img-2.png"
+                                alt="" class="wine-content__box-img">
+                            <span class="wine-content__box-descp">Sed ut perspiciatis unde omnis iste natus error sit
+                                voluptatem
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wine__img-main">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/travel-img-3.png" alt=""
+                        class="wine__img-content">
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-wrapper">
+                <div class="footer__contact">
+                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-footer.png" alt=""
+                        class="footer__contact-img">
+                    <p class="footer__contact-descp">Lorem ipsum dolor sit ametco nsec te tuer adipiscing elitae</p>
+
+                    <div class="footer__contact-main">
+                        <a href="" class="footer__contact-address">
+                            <i class="header__navbar-icon white--color ti-email"></i>
+                            <span class="footer__contact-mail-address">setsail@example.com</span>
+                        </a>
+                        <a href="" class="footer__contact-address">
+                            <i class="header__navbar-icon white--color fa-solid fa-phone"></i>
+                            <span class="footer__contact-number-address">1 562 867 5309</span>
+                        </a>
+                        <a href="" class="footer__contact-address">
+                            <i class="header__navbar-icon white--color ti-location-pin"></i>
+                            <span class="footer__contact-place-address">Broadway & Morris St, New York</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__post">
+                    <h2 class="footer__post-heading">Our Recent Posts</h2>
+                    <div class="footer__post-time">
+                        <p class="footer__post-name">Visit Thailand, Bali And China</p>
+                        <span class="footer__post-date">September 7, 2016</span>
+                    </div>
+                    <div class="footer__post-time">
+                        <p class="footer__post-name">Visit Thailand, Bali And China</p>
+                        <span class="footer__post-date">September 7, 2016</span>
+                    </div>
+                    <div class="footer__post-time">
+                        <p class="footer__post-name">Visit Thailand, Bali And China</p>
+                        <span class="footer__post-date">September 7, 2016</span>
+                    </div>
+                </div>
+                <div class="footer__subscribe">
+                    <h2 class="footer__post-heading">Subscribe to our Newsletter</h2>
+                    <div class="footer__post-time">
+                        <p class="footer__post-name">Etiam rhoncus. Maecenas temp us, tellus eget condimentum rho</p>
+                    </div>
+                    <div class="input__login">
+                        <input type="text" class="input_box input_box--gray-color" placeholder="Name">
+                        <div class="input__login-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="input__login">
+                        <input type="text" class="input_box input_box--gray-color" placeholder="Email">
+                        <div class="input__login-icon">
+                            <i class="header__navbar-icon white--color ti-email"></i>
+                        </div>
+                    </div>
+                    <div class="input__login">
+                        <button class="input_box input_box-signin input_box-signin-active mt-5">
+                            <span class="input_box-signin-text white--color">SUBSCRIBE</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="footer__insta">
+                    <h2 class="footer__post-heading">Our Instagram</h2>
+                    <div class="footer__post-time">
+                        <p class="footer__post-name">Aliquam lorem ante, dapibus inviver raqui feugiat a, tellus. Phasellus null</p>
+                    </div>
+                    <div class="wrapper-img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40550729_1902988519791897_8155378118322146980_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=uQ2dbPVRJNkAX8nW8Kq&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9dmwHJz_wS4QZinVCRf45UlPhvJijrQOT1i9SWcLqw4Q&oe=626F1952" alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40481446_312794325966573_7238021377612713413_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=Vy4NDhN8GD8AX-eBjwE&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-JPbOSyxu7khToZkWddCC9biWh1mzDqJIAkPWoVjPIwA&oe=626EF47A"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/41087687_720569758279116_5219986637256948209_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=mJYXwxFofwwAX9e5iJc&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-kgwYiMQZ37t03OlrbGJH2XwyCzla1cenNhjZpp304_Q&oe=626EB39F"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/39948730_433290073863227_8438102480037573677_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=fPnx4J4cJ1wAX89hkxM&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9R4tRuEMqbH0mXEk0aQn8-ZZpdI9z6Uo24JPNL6-XXBQ&oe=626EF4BB"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/41074418_340793066682119_1987037198157530486_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=JacIi2wAIqsAX8gCNMJ&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-9AQD8mRyJYxDxX2DMCBPHEwbhZ6egAL42YWCc61ZECg&oe=626F48C4"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40419870_296084594511455_8682518320629895026_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=8MqEHINf3pgAX-bcjTX&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8l67-aIC3AUk4OHUiu3BWQ3epZm5ctT3-1MTXV7XW2KQ&oe=626E94DE"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/39933078_1778861865537301_9178762990586169390_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=Ni8w4pdq3boAX83C2Tv&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_rsA0gjvRykpTlE9udQk1UAS6JPXQZjt48qcwkc0LGMQ&oe=626FD2AD"
+                            alt="" class="insta__img">
+                        <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40434429_708536679498397_8633299629858294087_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=nIIg4UcyLekAX_bRQCa&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-cMcqrUWzKUfi1u3SWwOctxOfa9zJ36EAPBQczRQcT6Q&oe=626F9D84"
+                            alt="" class="insta__img">
+                            <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40808933_1806822246105865_2770821415596652047_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=AWuNXn9QiM8AX9ZlCjU&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_ILBhF_rGp-Lp0E8hZzAUX_YVH85BmlctAMTmp7pFP6A&oe=626F556A"
+                                alt="" class="insta__img">
+                                <img src="https://scontent-den4-1.cdninstagram.com/v/t51.2885-15/40431710_258408881476133_5549904701930696493_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=Xq4l6f9vC1MAX-qVekP&_nc_ht=scontent-den4-1.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_LW92qNL-SNV5wZacVKrxlQjkpQNQ2SedDkMhVm92BCw&oe=626E853F"
+                                    alt="" class="insta__img">
+                    </div>
+                </div>
+            </div>
+            <div class="copy__right">
+            
+                <span class="copy__right-text">© 2018 Qode Interactive</span>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
